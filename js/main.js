@@ -5,7 +5,7 @@ let u, menus = document.getElementsByClassName('content'),
 
 function menu(e) {
   if (!e) {
-    buffer = document.getElementById('init_page').textContent;
+    buffer = document.getElementById('init_page').textContent.replace(/\t/g,'');
     typeWrite();
     return;
   }
