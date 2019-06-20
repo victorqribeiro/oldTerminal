@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-html,
-body {
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('PressStart2P-Regular.ttf') format('truetype');
+}
+
+html, body {
   height: 100%;
   width: 100%;
   background-color: #061072;
