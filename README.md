@@ -1,4 +1,4 @@
-# Old Terminals
+# Old Terminal
 
 An old terminal HTML/JS/CSS template I've been working on.
 
