@@ -2,9 +2,9 @@
 
 An old terminal HTML/JS/CSS template I've been working on. [Live version](https://victorribeiro.com/oldTerminal)
 
-![oldTerminal](screenshot.png)
+![white_on_blue](screenshot.png)
 
-![oldTerminal](screenshot2.png)
+![green_on_black](screenshot2.png)
 
 ## Documentation
 
