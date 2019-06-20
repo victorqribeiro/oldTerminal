@@ -61,4 +61,4 @@ document.addEventListener('click', menu);
 
 drawMouse();
 
-document.fonts.ready.then(menu());
+window.onload = () => menu();
