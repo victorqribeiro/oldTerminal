@@ -38,11 +38,11 @@ span {
   display: inline-block;
 }
 
-.first_letter {
+.menu_item::first-letter {
   color: #f00;
 }
 
-.rest_text {
+.menu_item {
   color: #061072;
 }
 
@@ -50,6 +50,10 @@ span {
   list-style-type: none;
   margin: 0;
   padding: 0.3em;
+}
+
+.content li:active {
+	color: #f00;
 }
 
 .content {
@@ -70,5 +74,4 @@ span {
 
 .page {
   display: none;
-  font-size:0;
 }
