@@ -1,12 +1,22 @@
 # Old Terminal
 
-An old terminal HTML/JS/CSS template I've been working on.
+An old terminal HTML/JS/CSS template I've been working on. [Live version](https://victorribeiro.com/oldTerminal)
 
 ![oldTerminal](screenshot.png)
 
-[Live version](https://victorribeiro.com/oldTerminal)
+![oldTerminal](screenshot2.png)
 
 ## Documentation
+
+Chaging color style to green on black.
+```html
+<link rel="stylesheet" type="text/css" href="css/green_on_black.css" />
+```
+
+Chaging color style to white on blue.
+```html
+<link rel="stylesheet" type="text/css" href="css/white_on_blue.css" />
+```
 
 Creating a menu bar.
 ```html

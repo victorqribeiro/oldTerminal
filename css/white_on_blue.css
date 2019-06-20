@@ -16,11 +16,11 @@ html, body {
 }
 
 * {
-     user-select: none;
-    -khtml-user-select: none;
-    -o-user-select: none;
-    -moz-user-select: -moz-none;
-    -webkit-user-select: none;
+	 user-select: none;
+	-khtml-user-select: none;
+	-o-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
 }
 
 span {
@@ -70,6 +70,7 @@ span {
 #main_content {
   font-size: 1.2em;
   padding: 0.2em;
+  caret-color: rgba(128,50,0,0.85);
 }
 
 .page {

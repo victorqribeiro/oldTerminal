@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('PressStart2P-Regular.ttf') format('truetype');
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #0D0208;
+  font-family: 'Press Start 2P', cursive;
+  color: #00FF41;
+  text-shadow: 0 0 4px #00FF41;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  font-smooth: never;
+}
+
+* {
+     user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+}
+
+span {
+  display: inline-block;
+}
+
+#menu_bar {
+  margin-bottom: 0.8em;
+  padding: 0.3em;
+  background-color: #0D0208;
+  font-size: 1.1em;
+  border: solid 1px #00FF41;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+#menu_bar div {
+  display: inline-block;
+}
+
+.menu_item::first-letter {
+  color: #008F11;
+  text-shadow: 0 0 2px #00FF41;
+}
+
+.menu_item {
+	color: #00FF41;
+	text-shadow: 0 0 4px #00FF41;
+}
+
+.content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.3em;
+}
+
+.content li:active {
+	color: #0D0208;
+	background-color: #00FF41;
+}
+
+.content {
+  display: block;
+  position: absolute;
+  background-color: #0D0208;
+  border: solid 1px #00FF41;
+  border-top: 0;
+  visibility: hidden;
+}
+
+#buffer {
+  display: none;
+}
+
+#main_content {
+  font-size: 1.2em;
+  padding: 0.2em;
+  caret-color: rgb(0,143,17,0.85);
+}
+
+.page {
+  display: none;
+}

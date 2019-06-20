@@ -51,7 +51,7 @@ function drawMouse() {
 	canvas.width = 16;
 	canvas.height = 24;
 	let c = canvas.getContext('2d');
-	c.fillStyle = 'rgba(128,50,0,0.85)';
+	c.fillStyle = window.getComputedStyle(mc).getPropertyValue("caret-color");;
 	c.fillRect(0, 0, 16, 24);
 	let url = canvas.toDataURL();
 	document.body.style.cursor = "url("+url+") 8 12, auto";
