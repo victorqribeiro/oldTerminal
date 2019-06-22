@@ -48,13 +48,15 @@ function typeWrite() {
 
 function drawMouse() {
 	let canvas = document.createElement('canvas');
-	canvas.width = 16;
-	canvas.height = 24;
+	canvas.width = 20;
+	canvas.height = 28;
 	let c = canvas.getContext('2d');
-	c.fillStyle = window.getComputedStyle(mc).getPropertyValue("caret-color");;
-	c.fillRect(0, 0, 16, 24);
+	c.fillStyle = window.getComputedStyle(mc).getPropertyValue("caret-color");
+	c.shadowColor = window.getComputedStyle(mc).getPropertyValue("caret-color");
+	c.shadowBlur = 5;
+	c.fillRect(3, 3, 14, 23);
 	let url = canvas.toDataURL();
-	document.body.style.cursor = "url("+url+") 8 12, auto";
+	document.body.style.cursor = "url("+url+") 10 14, auto";
 }
 
 document.addEventListener('click', menu);

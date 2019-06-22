@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'PxPlus IMB VGA8';
+  src: url('PxPlus_IBM_VGA8.ttf') format('truetype');
+}
+
+html, body {
+	font-family: 'PxPlus IMB VGA8';
+}

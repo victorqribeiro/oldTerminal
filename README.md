@@ -6,7 +6,19 @@ An old terminal HTML/JS/CSS template I've been working on. [Live version](https:
 
 ![green_on_black](screenshot2.png)
 
+![orange_on_black](screenshot3.png)
+
 ## Documentation
+
+Changing font to 'Px Plus VGA Square Px'.
+```html
+<link rel="stylesheet" type="text/css" href="css/PxPlusVGASquarePx.css" />
+```
+
+Changing font to 'Press Start 2P'.
+```html
+<link rel="stylesheet" type="text/css" href="css/PressStart2P.css" />
+```
 
 Chaging color style to green on black.
 ```html
@@ -16,6 +28,11 @@ Chaging color style to green on black.
 Chaging color style to white on blue.
 ```html
 <link rel="stylesheet" type="text/css" href="css/white_on_blue.css" />
+```
+
+Chaging color style to orange on black.
+```html
+<link rel="stylesheet" type="text/css" href="css/orange_on_black.css" />
 ```
 
 Creating a menu bar.

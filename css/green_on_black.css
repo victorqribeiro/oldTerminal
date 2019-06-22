@@ -1,13 +1,7 @@
-@font-face {
-  font-family: 'Press Start 2P';
-  src: url('PressStart2P-Regular.ttf') format('truetype');
-}
-
 html, body {
   height: 100%;
   width: 100%;
   background-color: #0D0208;
-  font-family: 'Press Start 2P', cursive;
   color: #00FF41;
   text-shadow: 0 0 4px #00FF41;
   margin: 0;
