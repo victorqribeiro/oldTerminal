@@ -37,7 +37,15 @@ span {
 }
 
 .menu_item {
+	display: block;
   color: #061072;
+}
+
+.content {
+  display: block;
+  position: absolute;
+  background-color: #888;
+  visibility: hidden;
 }
 
 .content ul {
@@ -48,13 +56,6 @@ span {
 
 .content li:active {
 	color: #f00;
-}
-
-.content {
-  display: block;
-  position: absolute;
-  background-color: #888;
-  visibility: hidden;
 }
 
 #buffer {

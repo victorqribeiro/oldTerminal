@@ -45,6 +45,7 @@ span {
 }
 
 .menu_item {
+	display: block;
 	padding-right: 1em;
 	border-top: 0;
 	border-left: 0;

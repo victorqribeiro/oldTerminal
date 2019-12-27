@@ -43,6 +43,7 @@ span {
 }
 
 .menu_item {
+	display: block;
 	color: #00FF41;
 	text-shadow: 0 0 4px #00FF41;
 }
